@@ -1,0 +1,6 @@
+def bmi(height, weight):
+    return weight/(height*height)
+
+
+a = bmi(float(input("Hight: ")), float(input("Weight: ")))
+print(a)
